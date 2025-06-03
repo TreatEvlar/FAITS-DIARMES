@@ -12,7 +12,7 @@ import Armor from "./MyComponents/Armor";
 import Slider from "./MyComponents/Slider";
 import Shield from "./MyComponents/Shield";
 import Blog from "./MyComponents/Blogs";
-import Footer from "./MyComponents/Footer";
+import FooterSection from "./MyComponents/FooterSection";
 
 function App() {
   return (
@@ -28,7 +28,7 @@ function App() {
       <Slider/>
       <Shield/>
       <Blog/>
-      <Footer/>
+      <FooterSection/>
     </div>
   );
 }
