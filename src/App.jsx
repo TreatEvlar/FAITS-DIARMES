@@ -5,7 +5,7 @@ import {Header} from './MyComponents/Header';
 import {Hero} from "./MyComponents/Hero-section";
 import {Mainstore} from "./MyComponents/Mainstore";
 import {Ministore} from "./MyComponents/Ministore";
-import {Microstore} from "./MyComponents/microstore";
+import {Microstore} from "./MyComponents/Microstore";
 import {Ads} from "./MyComponents/ads";
 import {Weapon} from "./MyComponents/Weapon";
 import {Armor} from "./MyComponents/Armor";
