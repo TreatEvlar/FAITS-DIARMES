@@ -1,4 +1,8 @@
 import React from "react";
+import mainFirstImage from "/src/assets/images/May 21, 2025, 01_00_06 PM.png";
+import mainSecondImage from "/src/assets/images/ChatGPT Image May 21, 2025, 01_04_50 PM.png";
+import mainThirdImage from "/src/assets/images/ChatGPT Image May 21, 2025, 01_07_37 PM.png";
+import mainForthImage from "/src/assets/images/ChatGPT Image May 21, 2025, 01_11_31 PM.png";
 
 export default function Mainstore() {
   return (
@@ -17,7 +21,7 @@ export default function Mainstore() {
         <div className="cards">
           <div className="card">
             <img
-              src="./src/MyComponents/images/May 21, 2025, 01_00_06 PM.png"
+              src={mainFirstImage}
               alt=""
             />
             <div className="text">
@@ -34,7 +38,7 @@ export default function Mainstore() {
           </div>
           <div className="card">
             <img
-              src="./src/MyComponents/images/ChatGPT Image May 21, 2025, 01_04_50 PM.png"
+              src={mainSecondImage}
               alt=""
             />
             <div className="text">
@@ -51,7 +55,7 @@ export default function Mainstore() {
           </div>
           <div className="card">
             <img
-              src="./src/MyComponents/images/ChatGPT Image May 21, 2025, 01_07_37 PM.png"
+              src={mainThirdImage}
               alt=""
             />
             <div className="text">
@@ -68,7 +72,7 @@ export default function Mainstore() {
           </div>
           <div className="card">
             <img
-              src="./src/MyComponents/images/ChatGPT Image May 21, 2025, 01_11_31 PM.png"
+              src={mainForthImage}
               alt=""
             />
             <div className="text">

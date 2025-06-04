@@ -1,4 +1,9 @@
 import React from "react";
+import microFirstImage from "/src/assets/images/ChatGPT Image May 21, 2025, 07_16_35 PM.png";
+import microSecondImage from "/src/assets/images/Screenshot 2025-05-21 184448.png";
+import microThirdImage from "/src/assets/images/Screenshot 2025-05-21 184457.png";
+import microForthImage from "/src/assets/images/Screenshot 2025-05-21 184504.png";
+import microFifthImage from "/src/assets/images/ChatGPT Image May 21, 2025, 07_16_35 PM.png";
 
 export default function Microstore() {
   return (
@@ -6,7 +11,7 @@ export default function Microstore() {
       <div className="container">
         <div className="second">
           <img
-            src="./src/MyComponents/images/ChatGPT Image May 21, 2025, 07_16_35 PM.png"
+            src={microFirstImage}
             alt=""
           />
         </div>
@@ -27,7 +32,7 @@ export default function Microstore() {
           <div className="two">
             <div className="box">
               <img
-                src="./src/MyComponents/images/Screenshot 2025-05-21 184448.png"
+                src={microSecondImage}
                 alt=""
               />
               <span id="one">"Black Fencer"<br /> Feder Sword 4.0</span>
@@ -36,7 +41,7 @@ export default function Microstore() {
             </div>
             <div className="box">
               <img
-                src="./src/MyComponents/images/Screenshot 2025-05-21 184457.png"
+                src={microThirdImage}
                 alt=""
               />
               <span id="one">
@@ -47,7 +52,7 @@ export default function Microstore() {
             </div>
             <div className="box">
               <img
-                src="./src/MyComponents/images/Screenshot 2025-05-21 184504.png"
+                src={microForthImage}
                 alt=""
               />
               <span id="one">"Cold Steel"<br /> Parrying dagger</span>
@@ -58,7 +63,7 @@ export default function Microstore() {
         </div>
         <div className="third">
           <img
-            src="./src/MyComponents/images/ChatGPT Image May 21, 2025, 07_16_35 PM.png"
+            src={microFifthImage}
             alt=""
           />
         </div>

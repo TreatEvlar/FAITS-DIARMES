@@ -1,4 +1,8 @@
 import React from "react";
+import miniFirstImage from "/src/assets/images/Screenshot 2025-05-21 184448.png";
+import miniSecondImage from "/src/assets/images/Screenshot 2025-05-21 184457.png";
+import miniThirdImage from "/src/assets/images/Screenshot 2025-05-21 184504.png";
+import miniForthImage from "/src/assets/images/ChatGPT Image May 21, 2025, 07_16_35 PM.png";
 
 export default function Ministore() {
   return (
@@ -21,7 +25,7 @@ export default function Ministore() {
           <div className="two">
             <div className="box">
               <img
-                src="./src/MyComponents/images/Screenshot 2025-05-21 184448.png"
+                src={miniFirstImage}
                 alt=""
               />
               <span id="one">"Black Fencer"<br /> Feder Sword 4.0</span>
@@ -30,7 +34,7 @@ export default function Ministore() {
             </div>
             <div className="box">
               <img
-                src="./src/MyComponents/images/Screenshot 2025-05-21 184457.png"
+                src={miniSecondImage}
                 alt=""
               />
               <span id="one">
@@ -41,7 +45,7 @@ export default function Ministore() {
             </div>
             <div className="box">
               <img
-                src="./src/MyComponents/images/Screenshot 2025-05-21 184504.png"
+                src={miniThirdImage}
                 alt=""
               />
               <span id="one">"Cold Steel"<br /> Parrying dagger</span>
@@ -52,7 +56,7 @@ export default function Ministore() {
         </div>
         <div className="second">
           <img
-            src="./src/MyComponents/images/ChatGPT Image May 21, 2025, 07_16_35 PM.png"
+            src={miniForthImage}
             alt=""
           />
         </div>

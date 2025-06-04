@@ -1,4 +1,9 @@
 import React from "react";
+import armorFirstImage from "/src/assets/images/Screenshot 2025-05-24 175503.png";
+import armorSecondImage from "/src/assets/images/Screenshot 2025-05-24 175512.png";
+import armorThirdImage from "/src/assets/images/Screenshot 2025-05-24 175519.png";
+import armorForthImage from "/src/assets/images/Screenshot 2025-05-24 175525.png";
+import armorFifthImage from "/src/assets/images/Screenshot 2025-05-24 175539.png";
 
 export default function Armor() {
   return (
@@ -11,25 +16,25 @@ export default function Armor() {
                 </div>
                 <div className="items">
                     <div className="box">
-                        <img src="./src/MyComponents/images/Screenshot 2025-05-24 175503.png" alt="" />
+                        <img src={armorFirstImage} alt="" />
                         <h2>AP Plus 350N PRO Jacket - Men</h2>
                         <p>Available for order</p>
                         <span>&#8364;59.00</span>
                     </div>
                     <div className="box">
-                        <img src="./src/MyComponents/images/Screenshot 2025-05-24 175512.png" alt="" />
+                        <img src={armorSecondImage} alt="" />
                         <h2>MAC ARMOUR Fencing Gloves</h2>
                         <p>Available for order</p>
                         <span>&#8364;59.00</span>
                     </div>
                     <div className="box">
-                        <img src="./src/MyComponents/images/Screenshot 2025-05-24 175519.png" alt="" />
+                        <img src={armorThirdImage} alt="" />
                         <h2>Hussar 800N Jacket - Men</h2>
                         <p>Available for order</p>
                         <span>&#8364;59.00</span>
                     </div>
                     <div className="box">
-                        <img src="./src/MyComponents/images/Screenshot 2025-05-24 175525.png" alt="" />
+                        <img src={armorForthImage} alt="" />
                         <h2>Reinforced tactical shorts</h2>
                         <p>Available for order</p>
                         <span>&#8364;59.00</span>
@@ -37,7 +42,7 @@ export default function Armor() {
                 </div>
             </div>
             <div className="first">
-                <img src="./src/MyComponents/images/Screenshot 2025-05-24 175539.png" alt="" />
+                <img src={armorFifthImage} alt="" />
             </div>
         </div>
     </div>

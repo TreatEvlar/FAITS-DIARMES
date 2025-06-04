@@ -2,6 +2,13 @@ import React, { useRef, useState } from "react";
 import { ImQuotesLeft, ImQuotesRight } from "react-icons/im";
 import { VscArrowCircleLeft, VscArrowCircleRight } from "react-icons/vsc";
 import { RiStarSFill } from "react-icons/ri";
+import sliderFirstImage from "/src/assets/images/Screenshot 2025-05-23 205221.png";
+import sliderSecondImage from "/src/assets/images/Screenshot 2025-05-23 205240.png";
+import sliderThirdImage from "/src/assets/images/Screenshot 2025-05-23 205256.png";
+import sliderForthImage from "/src/assets/images/Screenshot 2025-05-23 205312.png";
+import sliderFifthImage from "/src/assets/images/Screenshot 2025-05-23 205330.png";
+import sliderSixthImage from "/src/assets/images/Screenshot 2025-05-23 205350.png";
+import sliderSeventhImage from "/src/assets/images/Screenshot 2025-05-23 205403.png";
 
 export default function Slider() {
   const sliderRef = useRef(null);
@@ -144,31 +151,31 @@ export default function Slider() {
               <tr>
                 <td></td>
                 <td><img
-              src="./src/MyComponents/images/Screenshot 2025-05-23 205221.png"
+              src={sliderFirstImage}
               alt=""
             /></td>
                 <td><img
-              src="./src/MyComponents/images/Screenshot 2025-05-23 205240.png"
+              src={sliderSecondImage}
               alt=""
             /></td>
                 <td><img
-              src="./src/MyComponents/images/Screenshot 2025-05-23 205256.png"
+              src={sliderThirdImage}
               alt=""
             /></td>
                 <td><img
-              src="./src/MyComponents/images/Screenshot 2025-05-23 205312.png"
+              src={sliderForthImage}
               alt=""
             /></td>
                 <td><img
-              src="./src/MyComponents/images/Screenshot 2025-05-23 205330.png"
+              src={sliderFifthImage}
               alt=""
             /></td>
                 <td><img
-              src="./src/MyComponents/images/Screenshot 2025-05-23 205350.png"
+              src={sliderSixthImage}
               alt=""
             /></td>
                 <td><img
-              src="./src/MyComponents/images/Screenshot 2025-05-23 205403.png"
+              src={sliderSeventhImage}
               alt=""
             /></td>
                 <td></td>

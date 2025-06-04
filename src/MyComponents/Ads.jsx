@@ -1,12 +1,13 @@
 import React from "react";
 import { FaCrown, FaHorse } from "react-icons/fa";
+import firstImage from "/src/assets/images/May 22, 2025, 04_06_34 PM.png";
 
 export default function Ads() {
   return (
     <div className="ads">
       <div className="first">
         <img
-          src="./src/MyComponents/images/May 22, 2025, 04_06_34 PM.png"
+          src={firstImage}
           alt=""
         />
       </div>
