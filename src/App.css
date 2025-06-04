@@ -861,7 +861,7 @@ body{
   .ads {
     display: flex;
     flex-direction: column;
-    height: 114vh;
+    height: 115vh;
   }
 
   .ads .first {
